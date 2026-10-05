@@ -1,0 +1,25 @@
+# ---- WhatsApp Cloud API (Meta) ----
+# Temporary token from the API Setup page expires in 24h. See SETUP.md for a permanent one.
+WHATSAPP_TOKEN=EAAxxxxxxxxxxxxxxxx
+# "Phone number ID" (NOT the phone number itself) from the API Setup page
+WHATSAPP_PHONE_NUMBER_ID=123456789012345
+# Any random string you invent. You'll paste the same string into Meta's webhook config.
+VERIFY_TOKEN=change-me-to-a-random-string
+# App Secret (App settings > Basic). Enables webhook signature checking. Strongly recommended.
+APP_SECRET=
+
+# ---- OpenAI ----
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
+OPENAI_MODEL=gpt-4o-mini
+
+# ---- Salon details (injected into the system prompt) ----
+SALON_NAME=Glow & Grace Salon
+SALON_CITY=Pune
+SALON_ADDRESS=Shop 12, FC Road, Pune 411004
+SALON_PHONE=+91 98765 43210
+
+# ---- Misc (defaults are fine) ----
+DB_PATH=salon.db
+TIMEZONE=Asia/Kolkata
+HISTORY_LIMIT=20
+GRAPH_API_VERSION=v21.0
